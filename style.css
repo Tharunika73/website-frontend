@@ -771,6 +771,43 @@ height: 124px;
     top: 3536px;
     left: 182px;
 }
+.m6p1{
+    font-family:" Gilroy-Bold",sans-serif;
+font-weight: bolder;
+font-size: 28px;
+line-height: 37px;
+letter-spacing: 0%;
+text-transform: capitalize;
+width: 397px;
+height: 37px;
+position: absolute;
+right:100px;
+text-align: center;
+}
+.m6b2{
+    width: 321px;
+height: 404px;
+top: 87px;
+background-color: #F0F9FA;
+display: inline;
+position: relative;
+}
+.m6b3{
+    width: 321px;
+height: 404px;
+top: 87px;
+left: 341px;
+background-color: #FFF5EC;
+display: inline;
+}
+.m6b4{
+    width: 321px;
+height: 404px;
+top: 87px;
+left: 682px;
+background-color: #ECF1FB;
+display: inline;
+}
 .m7b1{
     width: 1366px;
     height: 768px;
