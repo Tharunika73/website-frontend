@@ -11,6 +11,7 @@
     color: orange;
 }
 .logo{
+    
     position: absolute;
     top: 25px;
 }
@@ -20,8 +21,8 @@
 
 .logop{
     display: inline;
-    width: 52px;
-    height: 16px;
+    /*width: 52px;
+    height: 16px;*/
     position:absolute;
     top: 12px;
     left: 51px;
@@ -41,10 +42,7 @@ li,.nav-links,.nav-buttons{
     text-align: center;
     color:black;
     position: absolute;
-    width: 428px;
-    height: 22px;
-    top: 29px;
-    left: 469px;
+    left:25%;
     gap: 32px;
     display: flex;
 }
@@ -54,31 +52,35 @@ li{
 .nav-buttons{
     padding-right: 75px;
     font-family: "poppins",sans-serif;
-    text-align: right;
+    float:right;
+    position:relative;
+    gap:10px;
+    display:flex;
+    
 }
 .navbar{
-    width: 1366px;
-    height: 80px;
+    width: 100%;
+    height: 70px;
     background-color:#FFFFFF ;
-    
-
+    position: sticky;
 }
 .main{
     background-color: #F7F9FF;
-    width: 100%;
+    background-size: cover;
+    width: 110%;
     height:680px;
-    display: inline-flex;
+    display: flex;
 }
 .box{
-    width: 545;
-    height: 462;
+    width: 545px;
+    height: 462px;
     padding-top: 20px;
     padding-left: 50px;
 
 }
 .box2{
-    width: 545;
-    height: 462;
+    width: 545px;
+    height: 462px;
     padding-bottom: 243px;
     padding-right: 182px;
     font-family: "poppins",sans-serif;
@@ -93,11 +95,12 @@ li{
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0%;
+    top:8px;
+    position: absolute;
 }
 .get{
     width: 120px;
     height: 35px;
-    position:absolute;
     display:inline-flex;
     top: 35px;
     left: 1350px;
@@ -119,16 +122,14 @@ li{
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0%;
-
-
+    position: absolute;
+    top: 8px;
 }
 .log{
     width: 78px;
     height: 35px;
-    position:absolute;
     display:inline-flex;
-    top: 35px;
-    left: 1250px;
+    float:left;
     border-radius: 10px;
     border-width: 1px;
     padding-top: 10px;
@@ -137,17 +138,15 @@ li{
     padding-left: 20px;
     gap: 8px;
     border-color: #5978FF;
-
-    
-
 }
 .none{
-    background-color:#F7F9FF;
     height:462px;
-    width: 545px;
-    position: absolute;
-    top: 100px;
-    left: 100px; 
+    position: relative;
+    top:50px;
+    left: 100px;
+    display: inline;
+    width: 400px;
+    padding: 10px 10px; 
     font-family: "poppins",sans-serif;
 }
 .c1{
@@ -193,15 +192,21 @@ li{
 }
 
 .pic img{
-    width: 650px;
-    height: 500px;
-    position:absolute;
-    top: 150px;
-    left: 664px;
+    
+display: inline-flex;
+top: 236px;
+left: 713px;
+
 
 }
 .pic{
     background-color: #F7F9FF;
+    width: 500px;
+    height: 426px;
+    position: relative;
+    left: 240px;
+    top: 160px;
+    display: inline-flex;
 }
 .curve{
     width: 228px;
@@ -284,19 +289,20 @@ li{
     line-height: 24px;
     letter-spacing: 0%;
 }
+
 .image4{
     width: 50px;
     height: 50px;
     position:absolute;
-    bottom: 580px;
-    left:60px;
+    top:45px;
+    left:-30px;
 }
 .image5{
     width: 20px;
     height: 20px;
     position:absolute;
-    bottom:255px;
-    left:480px;
+    bottom:60px;
+    left:390px;
 }
 .main2{
     width:100%;
