@@ -306,7 +306,7 @@ left: 713px;
 }
 .main2{
     width:100%;
-    height:500px;
+    height:750px;
 }
 .spac{
     text-align: center;
@@ -323,29 +323,13 @@ left: 713px;
 }
 .y{
     width:100%;
-    height: 500px;
-   padding: 20px 170px;
-
+    height: 700px;
 }
 .y1{
-    display: inline-flex;
-    width: 388px;
-    height: 270px;
-    
+    padding: 20px 200px;
 
 }
-.y2{
-    display: inline-flex;
-    width: 388px;
-    height: 270px;
-    padding: 30px 30px;
-}
-.y3{
-    display: inline-flex;
-    width: 388px;
-    height: 270px;
-    
-}
+
 .main3{
     width: 100%;
     height: 800px;
@@ -365,58 +349,49 @@ left: 713px;
     left:600px;
 }
 .m3b1{
+    padding: 100px 300px;
     width: 100%;
-height: 549px;
-
-
+    height: 200px;
+    display: inline-flex;
+}
+.m3bx{
+    padding: 0px 300px;
 }
 .icon1{
     width: 287px;
     height: 191px;
-    position: absolute;
-    bottom:-800px;
-    left: 250px;
-    display: inline-flex;
+
+    display: inline-block;
 }
 .icon2{
     width: 287px;
     height: 191px;
-    position: absolute;
-    bottom:-800px;
-    left: 600px;
-    display: inline-flex;
+    
+    display: inline-block;
 }
 .icon3{
     width: 287px;
     height: 191px;
-    position: absolute;
-    bottom:-800px;
-    left: 950px;
-    display: inline-flex;
+    
+    display: inline-block;
 }
 .icon4{
     width: 287px;
     height: 191px;
-    position: absolute;
-    bottom:-1050px;
-    left: 250px;
-    display: inline-flex;
+    
+    display: inline-block;
 }
 .icon5{
     width: 287px;
     height: 191px;
-    position: absolute;
-    bottom:-1050px;
-    left: 600px;
-    display: inline-flex;
+    
+    display: inline-block;
 }
 .icon6{
     width: 287px;
     height: 191px;
-    position: absolute;
-    bottom:-1050px;
-    left:950px;
-    display: inline-flex;
+    
+    display: inline-block;
 }
 .t1{
     font-family: "Gilroy-SemiBold",sans-serif;
@@ -424,14 +399,12 @@ height: 549px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0%;
-    position: absolute;
-    top:30px;
+    
 }
 .photo{
     width: 48px;
     height: 48px;
-    position: absolute;
-    top:-25px;
+    
     
 }
 .t2{
@@ -440,8 +413,7 @@ height: 549px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
-    position: absolute;
-    top:70px;
+    
 }
 .main4{
     background-color: #F7F9FF;
@@ -449,6 +421,12 @@ height: 549px;
     height: 900px;
     width: 100%;
     
+}
+.dots{
+    width: 153px;
+height: 50px;
+
+
 }
 .b1{
     background-color: white;
