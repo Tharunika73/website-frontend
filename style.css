@@ -647,20 +647,134 @@ li{
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
-
+    
 }
 .m5b3{
     width: 491px;
     height: 452px;
     top: 87px;
     gap: 40px;
+    background-color: white;
 
 }
+.s1{
+    width: 59px;
+height: 26px;
+gap: 10px;
+position:absolute;
+top:80px;
+
+border-radius: 24px;
+padding: 8px 15px;
+background-color: #CBF2E0;
+}
+.s1w{
+    font-family: "Poppins",sans-serif;
+    width: 50px;
+    height: 16px;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+    bottom:10px;
+    padding:-30px 10px;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+color:#008545;
+
+}
+
+.m5p{
+    width: 150px;
+height: 30px;
+top: 38px;
+font-family: "Gilroy-SemiBold",sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #121214;
+position: relative;
+top: -10px;
+}
+.m5p2{
+    font-family: "Gilroy-Medium",sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0%;
+width: 350px;
+height: 48px;
+position: relative;
+top: -25px;
+
+}
+.s2{
+    width: 59px;
+height: 26px;
+gap: 10px;
+border-radius: 24px;
+padding-top: 5px;
+padding-right: 12px;
+padding-bottom: 5px;
+padding-left: 12px;
+background-color: #CBF2E0;
+}
+.s3{
+    background-color: #CBF2E0;
+    width: 59px;
+height: 26px;
+gap: 10px;
+border-radius: 24px;
+padding-top: 5px;
+padding-right: 12px;
+padding-bottom: 5px;
+padding-left: 12px;
+}
+.m5b4{
+    width: 491px;
+height: 124px;
+
+}
+.m5b5{
+    width: 491px;
+height: 124px;
+
+}
+.m5b6{
+    width: 491px;
+height: 124px;
+
+}
+
 .m5i1{
     width: 900px;
     height: 900px;
     position: absolute;
-    top: -50px;
-    left: 500px;
+    top: -200px;
+    left: 150px;
+
+}
+.main6{
+    width: 100%;
+    height: 300px;
+}
+.m6b1{
+    width: 1003px;
+    height: 546px;
+    position: absolute;
+    top: 3536px;
+    left: 182px;
+}
+.m7b1{
+    width: 1366px;
+    height: 768px;
+    top: 4682px;
+    background-color: #F7F9FF;
 
 }
