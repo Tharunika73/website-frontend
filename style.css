@@ -628,3 +628,39 @@ li{
     color: #5978FF;
     border-width: 2px;
 }
+.main5{
+    height: 1000px;
+    width: 100%;
+}
+.mbox5{
+    width: 1002px;
+    height: 539px;
+    position: absolute;
+    top: 2900px;
+    left: 182px;
+
+}
+.m5b2{
+    font-family: "Gilroy-Bold",sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.m5b3{
+    width: 491px;
+    height: 452px;
+    top: 87px;
+    gap: 40px;
+
+}
+.m5i1{
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    top: -50px;
+    left: 500px;
+
+}
