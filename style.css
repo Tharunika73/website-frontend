@@ -67,6 +67,8 @@ li{
     position: fixed;
     z-index: 20;
     top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     margin-top: auto;
 }
@@ -443,8 +445,22 @@ left: 713px;
     background-color: #F7F9FF;
     background-image: url(Bg.png),url(Bg1.png);
     height: 900px;
+    display:block;
     width: 100%;
     
+}
+.mee{
+    width: 100%;
+height: 37px;
+font-family: "poppins",sans-serif;
+font-weight: bold;
+font-size: 28px;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+
 }
 .dots{
     width: 153px;
@@ -452,13 +468,18 @@ height: 50px;
 
 
 }
+.inbl{
+    display: block;
+    position: relative;
+    gap:50px;
+    padding: 10px 250px;
+}
 .b1{
     background-color: white;
     width: 320px;
     height: 420px;
-    position:absolute;
-    bottom: -1800px;
-    left: 170px;
+    display: inline-block;
+    gap:30px;
     border-radius: 10px;
 
 }
@@ -466,9 +487,7 @@ height: 50px;
     background-color: white;
     width: 320px;
     height: 420px;
-    position:absolute;
-    bottom: -1800px;
-    left:600px;
+    display: inline-block;
     border-radius: 10px;
 
 }
@@ -476,23 +495,17 @@ height: 50px;
     background-color: white;
     width: 320px;
     height: 420px;
-    position:absolute;
-    bottom: -1800px;
-    right: 170px;
+    display: inline-block;
     border-radius: 9px;
 }
 .person{
-    position:absolute;
-    left:10px;
-    top: 10px;
+    
 }
 .oran{
     width: 290px;
     height: 32px;
     border-radius: 5px;
-    position: absolute;
-    top: 225px;
-    left: 15px;
+    display: inline-block;
     background-color: rgb(225, 212, 186);
 }
 .crown{
@@ -503,6 +516,9 @@ height: 50px;
     display: inline-block;
 
 }
+.crown2{
+    display: inline-block;
+}
 .spe{
     width: 250px;
     height: 16px;
@@ -511,9 +527,7 @@ height: 50px;
     line-height: 16px;
     letter-spacing: 0%;
     display: inline-block;
-    position: absolute;
-    top:-5px;
-    left: 25px;
+   
 
 }
 .bo{
@@ -527,18 +541,20 @@ height: 50px;
     letter-spacing: 0%;
     width: 230px;
     height: 22px;
+    display: inline-block;
     font-weight: 550;
 }
 .bagimag{
     width: 16px;
     height: 16px;
     display: inline-flex;
+    margin-top: 15px;
     
 }
 .bag{
     width: 272px;
     height: 20px;
-    display: inline-block;
+    display: inline-flex;
 }
 .cro2{
     position: absolute;
@@ -546,37 +562,27 @@ height: 50px;
     bottom:-75px;
 }
 .q{
-    width: 200px;
-    height: 10px;
-    display: inline-block;
+    margin-bottom: 17px;
     font-family: "Poppins",sans-serif;
-    font-weight: 100;
-    position: absolute;
-    bottom: -85px;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0%;
+    font-size: 12px;
+    color: #555555;
 }
 .bl1{
     width: 296px;
     height: 60px;
     border-radius: 12px;
     background-color: #F7F9FF;
-    position: relative;
-    top: 340px;
-    left: 12px;
+    
 }
 .book{
     width: 80px;
     height: 40px;
-    top: 10px;
-    left: 204px;
+    position: relative;
+    bottom: 55px;
+    left: 200px;
     border-radius: 10px;
-    
-    position: absolute;
     gap: 8px;
     background-color: #5978FF;
-
 }
 #book2{
     
@@ -597,24 +603,18 @@ height: 50px;
     font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 22px;
+    line-height: 5px;
     letter-spacing: 0%;
 }
 .r1{
-    width: 54px;
+    width: 100px;
     height: 16px;
-    position: absolute;
-    top: 8px;
-    left: 12px;
-
+    
+    display: inline-flex;
 }
 .r2{
     width: 107px;
     height: 22px;
-    top: 20px;
-    left: 12px;
-    position: absolute;
-
 }
 .cred2{
     font-family: "Poppins",sans-serif;
