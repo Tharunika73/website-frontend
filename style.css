@@ -13,8 +13,10 @@
 .logo{
     
     position: absolute;
-    top: 25px;
+    top:10px;
+    left: 30px;
 }
+
 .black{
     color: black;
 }
@@ -24,8 +26,8 @@
     /*width: 52px;
     height: 16px;*/
     position:absolute;
-    top: 12px;
-    left: 51px;
+    top: 0;
+    left: 80px;
     font-family: "Poppins",sans-serif;
     font-weight:600px;
     line-height: 16px;
@@ -42,7 +44,7 @@ li,.nav-links,.nav-buttons{
     text-align: center;
     color:black;
     position: absolute;
-    left:25%;
+    left:500px;
     gap: 32px;
     display: flex;
 }
@@ -59,10 +61,14 @@ li{
     
 }
 .navbar{
-    width: 100%;
-    height: 70px;
+    min-width: 100%;
+    height: 65px;
     background-color:#FFFFFF ;
-    position: sticky;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    text-align: center;
+    margin-top: auto;
 }
 .main{
     background-color: #F7F9FF;
@@ -138,6 +144,7 @@ li{
     padding-left: 20px;
     gap: 8px;
     border-color: #5978FF;
+    background-color: #FFFFFF;
 }
 .none{
     height:462px;
@@ -166,7 +173,7 @@ li{
     height: 128px;  
     position: absolute;
     top: 3px;
-    font-family: "Gilroy-Bold", sans-serif;  
+    font-family: "poppins", sans-serif;  
     font-weight: bold;  
     font-size: 48px;  
     line-height: 64px;  
@@ -184,7 +191,7 @@ li{
     height: 96px;
     position: absolute;
     top: 250px;
-    font-family: "Gilroy-Medium";
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -204,7 +211,7 @@ left: 713px;
     width: 500px;
     height: 426px;
     position: relative;
-    left: 240px;
+    left: 300px;
     top: 160px;
     display: inline-flex;
 }
@@ -283,7 +290,7 @@ left: 713px;
 }
 .exp2{
     color:white;
-    font-family: "Gilroy-SemiBold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -298,11 +305,11 @@ left: 713px;
     left:-30px;
 }
 .image5{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     position:absolute;
     bottom:60px;
-    left:390px;
+    left:400px;
 }
 .main2{
     width:100%;
@@ -310,7 +317,7 @@ left: 713px;
 }
 .spac{
     text-align: center;
-    font-family: "Gilroy-Bold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     font-size: 28px;
     line-height: 39px;
@@ -321,10 +328,22 @@ left: 713px;
     overflow-x: hidden;
     overflow-y: auto;
 }
-.y{
-    width:100%;
+.y {
+    width: 100%;
     height: 700px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
 }
+
+.yuotube1 {
+    max-width: 100%; 
+    height: 500px;
+}
+
+
 .y1{
     padding: 20px 200px;
 
@@ -336,9 +355,9 @@ left: 713px;
     background-color: #F7F9FF;
 }
 .spac2{
-    width: 361px;
+    width: 400px;
     height: 37px;
-    font-family: "Gilroy-Bold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     font-size: 28px;
     color: #121214;
@@ -352,10 +371,15 @@ left: 713px;
     padding: 100px 300px;
     width: 100%;
     height: 200px;
+    gap: 50px;
     display: inline-flex;
 }
 .m3bx{
     padding: 0px 300px;
+    gap: 50px;
+    display: inline-flex;
+
+
 }
 .icon1{
     width: 287px;
@@ -394,7 +418,7 @@ left: 713px;
     display: inline-block;
 }
 .t1{
-    font-family: "Gilroy-SemiBold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
@@ -408,7 +432,7 @@ left: 713px;
     
 }
 .t2{
-    font-family: "Gilroy-Medium",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -496,7 +520,7 @@ height: 50px;
     font-weight: bold;
 }
 .name{
-    font-family: "Gilroy-SemiBold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -525,7 +549,7 @@ height: 50px;
     width: 200px;
     height: 10px;
     display: inline-block;
-    font-family: "Gilroy-Medium",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 100;
     position: absolute;
     bottom: -85px;
@@ -556,7 +580,7 @@ height: 50px;
 }
 #book2{
     
-    font-family: "Gilroy-SemiBold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -570,7 +594,7 @@ height: 50px;
     color: white
 }
 .cred{
-    font-family: "Gilroy-SemiBold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
@@ -593,7 +617,7 @@ height: 50px;
 
 }
 .cred2{
-    font-family: "Gilroy-Medium",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -636,7 +660,7 @@ height: 50px;
 
 }
 .m5b2{
-    font-family: "Gilroy-Bold",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
@@ -687,7 +711,7 @@ color:#008545;
     width: 150px;
 height: 30px;
 top: 38px;
-font-family: "Gilroy-SemiBold",sans-serif;
+font-family: "Poppins",sans-serif;
 font-weight: bold;
 font-size: 14px;
 line-height: 30px;
@@ -698,7 +722,7 @@ position: relative;
 top: -10px;
 }
 .m5p2{
-    font-family: "Gilroy-Medium",sans-serif;
+    font-family: "Poppins",sans-serif;
 font-weight: 400;
 font-size: 12px;
 line-height: 24px;
@@ -767,7 +791,7 @@ height: 124px;
     left: 182px;
 }
 .m6p1{
-    font-family:" Gilroy-Bold",sans-serif;
+    font-family:"Poppins",sans-serif;
 font-weight: bolder;
 font-size: 28px;
 line-height: 37px;
